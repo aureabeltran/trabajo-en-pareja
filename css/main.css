@@ -1,0 +1,25 @@
+img{
+	max-width: 100%;
+}
+.banner{
+background-image: url(../img/background/hero.jpg);
+background-size: cover;
+height: 600px;
+width: 100%;
+}
+li{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+ol{
+	text-decoration: none;
+	text-align: right;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: blue;
+}

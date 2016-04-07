@@ -3,6 +3,16 @@ img{
 }
 #star-icon{
 	color: white;
+	position: absolute;
+	right: 90%;
+	font-size: 25px;
+	margin-top: 20px;
+}
+h2{
+	color: white;
+	margin-top: 17px;
+	position: absolute;
+	left: 70px;
 }
 .banner{
 	background-image: url(../img/background/hero.jpg);
@@ -36,7 +46,7 @@ a{
 	color: white;
 }
 a:hover{
-	color: blue;
+	color: #40A1B8;
 }
 i{
 	color: white;
@@ -46,23 +56,27 @@ h2{
 	margin-top: 20px;
 	text-align: center;
 	position: absolute;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 .caja-header{
 	padding: 20% 5% 10% 5%;
 }
 h1{
-	font-size: 40px;
+	font-size: 45px;
 	text-align: center;
 	color: white;
 	position: absolute;
-	margin-bottom: 30px;
-	padding-left: 40px;
+	top: 40%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 h3{
-	color: white;
+	color: #E6E4E8;
+	font-size: 17px;
+	padding-left: 10%;
+	padding-right: 15%;
 	position: absolute;
-	margin-top: 40px;
+	top: 50%;
 	text-align: center;
 }
 .input-our input{
@@ -71,18 +85,22 @@ h3{
 	background-color: #545454;
 	border: 1px solid #545454;
 	color: white;
+	font-size: 15px;
+	font-weight: bold;
 	position: absolute;
-	left: 30%;
-	top: 60%;
+	left: 33%;
+	top: 65%;
 }
 .input-learn input{
 	width: 150px;
 	height: 50px;
 	color: white;
+	font-size: 15px;
+	font-weight: bolder;
 	position: absolute;
-	left: 55%;
-	top: 70%;
-	opacity: 0.3;
+	left: 53%;
+	top: 65%;
+	opacity: 0.4;
     filter:  alpha(opacity=50);
 }
 .section-features{

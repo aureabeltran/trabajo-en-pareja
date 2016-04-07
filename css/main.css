@@ -127,6 +127,7 @@ h5{
 	margin-top: 100px;
 	padding-top: 50px;
 	font-size: 30px;
+	color: #2D2D2D;
 }
 .laptop{
 	padding-left: 20%;
@@ -138,7 +139,7 @@ h6{
 	right: 40%
 }
 .iconos-features{
-	padding: 10% 8% 10% 8%;
+	padding: 10% 5% 10% 5%;
 }
 #more-icons{
 	font-size: 25px;
@@ -147,8 +148,62 @@ h6{
 	color: #6A6A6A;
 	text-align: left;
 	padding-top: 5px;
-	padding-right: 5px;
+	padding-right: 1%;
 }
 .portfolio{
 	background-color: #E4E1E1;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.portfolio-title{
+	font-size: 35px;
+	color: #2D2D2D;
+	margin-left: 43%;
+}
+.portfolio-sub{
+	color: #606060;
+	text-align: center;
+	font-size: 17px;
+	padding: 0%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ul{
+	text-decoration: none;
+	text-align: center;
+}
+.list-portfolio:hover{
+	color: white;
+	background-color: #40A1B8;
+}
+.list-portfolio{
+	width: 90px;
+	height: 40px;
+	font-size: 17px;
+	color: #2D2D2D;
+	background-color: #EEEEEE;
+	padding-top: 10px;
+	margin-right: 3px;
+	margin-bottom: 20px; 
+	font-weight: bold;
+}
+.images{
+	padding: 10px 10px 13px 10px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background-color: white;
+}
+.photo-parrafo{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.Load-more{
+	width: 150px;
+	height: 50px;
+	background-color: #545454;
+	border: 1px solid #545454;
+	color: #D1D1D1;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 42%;
 }

@@ -213,7 +213,6 @@ ul{
 	height: 350px;
 	width: 100%;
 	position: relative;
-	margin-bottom: 20px;
 }
 .fondo-city::before{
   background-color: rgba(0, 0, 0, 0.6);
@@ -239,4 +238,46 @@ ul{
 	position: relative;
 	margin-top: 50px;
 }
-
+.package{
+	padding: 0% 10% 0% 10%;
+	background-color: #E4E1E1;
+}
+.package h5{
+	padding-top: 0px;
+}
+.package p{
+	font-size: 20px;
+}
+.buttons-package{
+	padding: 10px 5px
+	30px 5px;
+	background-color: white;
+}
+.buttons-package h4{
+	font-size: 20px;
+	color: black;
+}
+.standard{
+	width: 260px;
+	height: 80px;
+	background-color: #5A5A5A;
+	color: white;
+	font-size: 30px;
+	padding-top: 10px;
+}
+.premium{
+	width: 260px;
+	height: 80px;
+	background-color: #1596AD;
+	color: white;
+	font-size: 30px;
+	padding-top: 10px;
+}
+.ultimate{
+	width: 260px;
+	height: 80px;
+	background-color: #5A5A5A;
+	color: #D2D2D2;
+	font-size: 30px;
+	padding-top: 10px;
+}

@@ -100,8 +100,7 @@ h3{
 	position: absolute;
 	left: 53%;
 	top: 65%;
-	opacity: 0.4;
-    filter:  alpha(opacity=50);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 .section-features{
 	padding: 10%;
@@ -135,11 +134,21 @@ h5{
 }
 h6{
 	font-size: 20px;
+	position: relative;
+	right: 40%
 }
 .iconos-features{
-	padding: 10% 5% 10% 5%;
+	padding: 10% 8% 10% 8%;
 }
-.features{
-	text-align: left;
+#more-icons{
+	font-size: 25px;
+}
+.features-parrafo{
 	color: #6A6A6A;
+	text-align: left;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+.portfolio{
+	background-color: #E4E1E1;
 }
